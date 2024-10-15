@@ -5,7 +5,7 @@
 Manga Viewer is a web-based application that allows users to select and read manga chapters seamlessly. The app features a responsive interface that adjusts to different screen sizes, providing a user-friendly experience for manga enthusiasts. It supports navigating through manga books, selecting chapters, and browsing pages with simple controls.
 
 This project is intended to be my submission for the following coding assignment :
-`https://mntr.notion.site/Coding-assignment-for-frontend-engineers-manga-viewer-1ff6ab60b8ae4986b463a33e3eb6f679`
+https://mntr.notion.site/Coding-assignment-for-frontend-engineers-manga-viewer-1ff6ab60b8ae4986b463a33e3eb6f679
 
 ## Demo
 
@@ -25,7 +25,6 @@ https://youtu.be/xaPd4mdNnfw
 - **Frontend**: React.js
 - **API**: Axios for fetching manga data
 - **Styling**: CSS
-- **Deployment**:
 
 ## Installation
 
