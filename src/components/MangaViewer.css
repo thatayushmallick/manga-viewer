@@ -1,0 +1,26 @@
+.viewer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Full viewport height */
+    width: 100vw;  /* Full viewport width */
+    overflow: hidden;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh; /* Takes most of the height for the image */
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .responsive-image {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  

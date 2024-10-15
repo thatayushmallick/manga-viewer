@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Manga Viewer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Manga Viewer is a web-based application that allows users to select and read manga chapters seamlessly. The app features a responsive interface that adjusts to different screen sizes, providing a user-friendly experience for manga enthusiasts. It supports navigating through manga books, selecting chapters, and browsing pages with simple controls.
 
-In the project directory, you can run:
+This project is intended to be my submission for the following coding assignment :
+`https://mntr.notion.site/Coding-assignment-for-frontend-engineers-manga-viewer-1ff6ab60b8ae4986b463a33e3eb6f679`
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A brief walkthrough of the project :
+`https://youtu.be/xaPd4mdNnfw`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Book Selection**: Users can browse available manga books and select one to read.
+- **Chapter List**: After selecting a book, the available chapters are displayed for easy selection.
+- **Page Navigation**: Users can click on the left side of the screen to go to the next page and on the right side to go to the previous page.
+- **Responsive Design**: The app adjusts beautifully on different devices, ensuring a great reading experience on desktops, tablets, and mobile devices.
+- **Auto Chapter Loading**: When the user reaches the end of a chapter, the next chapter loads automatically.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+- **Frontend**: React.js
+- **API**: Axios for fetching manga data
+- **Styling**: CSS
+- **Deployment**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Before running this project, ensure that you have the following installed:
 
-### `npm run eject`
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Steps to Set Up
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   git clone
+   cd manga-viewer
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Install dependencies:
 
-## Learn More
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Start the development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm start
+   ```
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Open your browser and visit `http://localhost:3000` to view the app.

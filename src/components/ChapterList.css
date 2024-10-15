@@ -1,0 +1,23 @@
+.chapter-list-container {
+    display: flex;                     /* Enable flexbox */
+    justify-content: center;           /* Center vertically */
+    align-items: center;               /* Center horizontally */
+    height: 5vh;                    /* Full viewport height */
+  }
+  
+  button {
+    padding: 5px 10px;              /* Button padding */
+    font-size: 15px;                 /* Button font size */
+    margin: 2px;                    /* Space between buttons */
+    cursor: pointer;                 /* Pointer cursor on hover */
+    background-color: #007bff;      /* Button background color */
+    color: white;                    /* Button text color */
+    border: none;                    /* Remove border */
+    border-radius: 5px;             /* Rounded corners */
+    transition: background-color 0.3s; /* Transition for hover effect */
+  }
+  
+  button:hover {
+    background-color: #0056b3;       /* Darker background on hover */
+  }
+  
