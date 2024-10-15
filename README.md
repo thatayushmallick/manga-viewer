@@ -10,7 +10,7 @@ This project is intended to be my submission for the following coding assignment
 ## Demo
 
 A brief walkthrough of the project :
-`https://youtu.be/xaPd4mdNnfw`
+https://youtu.be/xaPd4mdNnfw
 
 ## Features
 
@@ -41,7 +41,7 @@ Before running this project, ensure that you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone
+   git clone https://github.com/thatayushmallick/manga-viewer.git
    cd manga-viewer
    ```
 
